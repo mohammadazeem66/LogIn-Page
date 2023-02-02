@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>menu page</title>
+    <style>
+        header{
+            font-weight: bold;
+            font-size: larger;
+        }
+        .page1{
+            width: 39%;
+            /* border: solid black; */
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 18%;
+        }
+        .page2{
+            width: 61%;
+            margin-left: 40%;
+            margin-top: -200px; 
+            /* border: solid black; */
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            border-left: 2px solid green;
+        }
+        .signbtn{
+          background-color: rgb(149, 0, 255);
+          color: white;
+          border-radius: 20px;
+          padding: 10px;
+          width: 20%;        
+        }
+        .signbtn:hover{
+           color: blue;
+        }
+        .imgf{
+             width: 30px;
+             height: 30px;
+        }
+        .imglinkedin{
+            width: 30px;
+             height: 30px;
+        }
+        .imgtwitter{
+            width: 30px;
+             height: 30px;
+        }
+        .input{
+            width: 30%;
+            padding: 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+   <div class="page1">
+    <header>Welcome Back !</header><br>
+    <p>To keep connected with us please log in with your personal</p>
+    <button class="signbtn">Sign In</button>
+   </div>
+   <div class="page2">
+    <h1>Create Account</h1>
+    <div>
+        <img class="imgf" src="./facebook.png" alt="">
+        <img class="imglinkedin" src="./linkedin.png" alt="">
+        <img class="imgtwitter" src="./twitter.png" alt="">
+    </div>
+    <p>use email for registration</p>
+    <input class="input" type="text" placeholder="NAME"><br><br>
+    <input class="input" type="text" placeholder="Email"><br><br>
+    <input class="input" type="text" placeholder="password"><br><br>
+    <button class="signbtn">Sign Up</button>
+   </div>
+</body>
+</html>
